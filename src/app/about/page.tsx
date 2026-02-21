@@ -4,9 +4,9 @@ import { config } from "@/config";
 import { signOgImageUrl } from "@/lib/og-image";
 import Markdown from "react-markdown";
 
-const content = `# Valiyev
+const content = `# Valiyev Barkamol
 
-![Valiyev](https://drive.google.com/file/d/1wbeoJnbnwav-5EujpY9N5FCZmvCEMWkM/view?usp=drive_link)
+![Valiyev](https://drive.google.com/file/d/1wbeoJnbnwav-5EujpY9N5FCZmvCEMWkM/view?usp=sharing)
 
 I am a software engineer focused on building robust web systems and exploring low-level systems architecture. My approach to development is rooted in performance, efficiency, and full-stack ownership.
 
@@ -16,7 +16,7 @@ While I work extensively within the JavaScript ecosystem—specializing in **Nod
 ### Systems & Infrastructure
 I believe an engineer should understand the environment their code runs in. This blog itself is a reflection of that philosophy: built with modern frameworks and self-hosted on a VPS using Nginx and Linux process management. 
 
-![Systems](https://drive.google.com/file/d/11jQHv3S8xC4yTO0qyYTFBgtXViROAqxc/view?usp=drive_link)
+![Systems](https://drive.google.com/file/d/11jQHv3S8xC4yTO0qyYTFBgtXViROAqxc/view?usp=sharing)
 
 ### Focus Areas
 - **Backend Architecture:** Designing scalable services and efficient API structures.
