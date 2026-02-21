@@ -4,39 +4,44 @@ import { config } from "@/config";
 import { signOgImageUrl } from "@/lib/og-image";
 import Markdown from "react-markdown";
 
-const content = `# About Me
+const content = `# Valiyev
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/db7abbe3-aa5c-433e-a16d-cbf137d1c9e5.png/public)
+![Valiyev](https://drive.google.com/file/d/1wbeoJnbnwav-5EujpY9N5FCZmvCEMWkM/view?usp=drive_link)
 
-Hey there! I'm Samantha, a 28-year-old former corporate warrior who decided to ditch the 9-to-5 grind and embark on an adventure of a lifetime. After years of hustling in a high-pressure job, I realized that life is too short to be stuck in an office, staring at spreadsheets all day.
+I am a software engineer focused on building robust web systems and exploring low-level systems architecture. My approach to development is rooted in performance, efficiency, and full-stack ownership.
 
-So I took a leap of faith, quit my cushy job in Singapore, and decided to see the world on my own terms. No more stuffy meetings or rigid schedules – just me, my backpack, and an open road ahead.
+### Technical Foundation
+While I work extensively within the JavaScript ecosystem—specializing in **Node.js, React, Express, Vue**—my engineering perspective is heavily influenced by **C++**. I value C++ for its uncompromising performance and the granular control it provides over system resources. This low-level understanding informs how I architect high-level applications, ensuring they are not just functional, but optimized.
 
-![Samantha](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/6b080e65-2329-4a36-ad5c-0a6af8d9aeb1.png/public)
+### Systems & Infrastructure
+I believe an engineer should understand the environment their code runs in. This blog itself is a reflection of that philosophy: built with modern frameworks and self-hosted on a VPS using Nginx and Linux process management. 
 
-This blog is where I'll be documenting my travels, sharing my experiences, and hopefully inspiring others to follow their wanderlust. From trekking through remote villages to savoring local cuisines, I'm on a mission to immerse myself in different cultures and create memories that will last a lifetime.
+![Systems](https://drive.google.com/file/d/11jQHv3S8xC4yTO0qyYTFBgtXViROAqxc/view?usp=drive_link)
 
-But this journey isn't just about checking off destinations from a bucket list. It's about self-discovery, personal growth, and finding the courage to live life on my own terms. I'll be honest and raw, sharing the highs and lows, the moments of pure bliss and the inevitable challenges that come with solo travel.
+### Focus Areas
+- **Backend Architecture:** Designing scalable services and efficient API structures.
+- **Systems Programming:** Utilizing C++ for performance-critical logic and system-level tools.
+- **Infrastructure:** Managing deployment pipelines, server configurations, and web security.
 
-So join me on this adventure, and let's explore the world together! Who knows, maybe my stories will inspire you to take that leap of faith and pursue your own dreams, whatever they may be.
+### Objective
+This space serves as a technical log for documenting engineering challenges, architectural decisions, and system-level explorations. I prefer direct solutions over abstraction-heavy "fluff."
 
-Let's go on an adventure!
+For technical inquiries or collaboration on systems-oriented projects, reach out via the links below.
 
-Love,
-
-Samantha`;
+**Valiyev**  
+Software Engineer`;
 
 export async function generateMetadata() {
   return {
-    title: "About Me",
-    description: "Learn more about Samantha and her travel adventures",
+    title: "About | Valiyev",
+    description: "Software Engineer specializing in Node JS and C++.",
     openGraph: {
-      title: "About Me",
-      description: "Learn more about Samantha and her travel adventures",
+      title: "Valiyev | Software Engineering",
+      description: "Technical profile and focus areas of Valiyev.",
       images: [
         signOgImageUrl({
-          title: "Samantha",
-          label: "About Me",
+          title: "Valiyev",
+          label: "Software Engineer",
           brand: config.blog.name,
         }),
       ],
@@ -46,13 +51,13 @@ export async function generateMetadata() {
 
 const Page = async () => {
   return (
-    <div className="container mx-auto px-5">
-      <Header />
-      <div className="prose lg:prose-lg dark:prose-invert m-auto mt-20 mb-10 blog-content">
-        <Markdown>{content}</Markdown>
+      <div className="container mx-auto px-5">
+        <Header />
+        <div className="prose lg:prose-lg dark:prose-invert m-auto mt-20 mb-10 blog-content">
+          <Markdown>{content}</Markdown>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
   );
 };
 
