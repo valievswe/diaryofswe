@@ -6,7 +6,7 @@ import Markdown from "react-markdown";
 
 const content = `# Valiyev Barkamol
 
-![Valiyev](https://drive.google.com/file/d/1wbeoJnbnwav-5EujpY9N5FCZmvCEMWkM/view?usp=sharing)
+![Valiyev](https://pub-7d284f232bb7450dbcead63122c0b4d2.r2.dev/photo_2024-09-14_16-38-19.jpg)
 
 I am a software engineer focused on building robust web systems and exploring low-level systems architecture. My approach to development is rooted in performance, efficiency, and full-stack ownership.
 
@@ -16,7 +16,7 @@ While I work extensively within the JavaScript ecosystem—specializing in **Nod
 ### Systems & Infrastructure
 I believe an engineer should understand the environment their code runs in. This blog itself is a reflection of that philosophy: built with modern frameworks and self-hosted on a VPS using Nginx and Linux process management. 
 
-![Systems](https://drive.google.com/file/d/11jQHv3S8xC4yTO0qyYTFBgtXViROAqxc/view?usp=sharing)
+![Systems](https://pub-7d284f232bb7450dbcead63122c0b4d2.r2.dev/photo_2024-01-07_22-30-56.jpg)
 
 ### Focus Areas
 - **Backend Architecture:** Designing scalable services and efficient API structures.
@@ -24,11 +24,11 @@ I believe an engineer should understand the environment their code runs in. This
 - **Infrastructure:** Managing deployment pipelines, server configurations, and web security.
 
 ### Objective
-This space serves as a technical log for documenting engineering challenges, architectural decisions, and system-level explorations. I prefer direct solutions over abstraction-heavy "fluff."
+This space serves as a technical log for documenting engineering challenges, architectural decisions, and system-level explorations.
 
 For technical inquiries or collaboration on systems-oriented projects, reach out via the links below.
 
-**Valiyev**  
+**Valiyev Barkamol**  
 Software Engineer`;
 
 export async function generateMetadata() {
